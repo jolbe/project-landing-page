@@ -90,3 +90,9 @@ header {
 .hero button:hover {
   background-color: #1a50a4;
 }
+
+/* Utilities */
+.no-underline,
+.no-underline:hover {
+  text-decoration: none;
+}
