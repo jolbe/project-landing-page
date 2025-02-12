@@ -91,6 +91,48 @@ header {
   background-color: #1a50a4;
 }
 
+main.info {
+  padding: 24px var(--middle-padding);
+  margin-bottom: 48px;
+}
+main.info h2 {
+  color: var(--primary-bg-color);
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.card {
+  flex: 1 1 calc(25% - 48px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 calc(50% - 48px);
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
+.card img {
+  border: 3px solid var(--bg-blue);
+  border-radius: 15px;
+}
+.card p {
+  text-align: center;
+}
+
 /* Utilities */
 .no-underline,
 .no-underline:hover {
