@@ -18,3 +18,75 @@
 html {
   font-family: var(--font-family);
 }
+
+header {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  padding: 0 var(--side-padding);
+}
+
+.navigation {
+  padding-top: 12px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navigation li:nth-of-type(2) {
+  margin-left: auto;
+}
+
+.navigation .logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.hero > * {
+  flex: 1 1 300px;
+}
+/* Overrides top property to make it 1:2 ratio */
+.hero div:first-of-type {
+  flex-grow: 1;
+}
+.hero div:last-of-type {
+  flex-grow: 2;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.hero button {
+  background-color: var(--bg-blue);
+  color: var(--primary-text-color);
+  padding: 8px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.hero button:hover {
+  background-color: #1a50a4;
+}
