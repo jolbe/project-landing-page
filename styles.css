@@ -160,6 +160,11 @@ main.info h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.call-to-action > div {
+  flex: 1 1 300px;
 }
 .call-to-action button {
   flex: 0 0 150px;
