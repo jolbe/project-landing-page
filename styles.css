@@ -177,6 +177,13 @@ main.info h2 {
   background-color: #1a50a4;
 }
 
+footer {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  padding: 24px;
+  text-align: center;
+}
+
 /* Utilities */
 .no-underline,
 .no-underline:hover {
