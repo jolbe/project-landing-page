@@ -1,0 +1,20 @@
+/* Define variables */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+:root {
+  --font-family: Roboto, sans-serif, sans;
+
+  --primary-bg-color: #1f2937;
+  --secondary-bg-color: #e5e7eb;
+  --bg-blue: #3882f6;
+
+  --primary-text-color: #f9faf8;
+  --secondary-text-color: #e5e7eb;
+
+  --side-padding: 10%;
+  --large-padding: 72px;
+  --middle-padding: calc(var(--side-padding) + var(--large-padding));
+}
+
+html {
+  font-family: var(--font-family);
+}
